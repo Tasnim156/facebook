@@ -1,0 +1,151 @@
+    @media (min-width:1024px) and (max-width: 1439px) {
+        .header {
+            padding-bottom: 10px;
+        }
+        .left-area img {
+            width: 437px;
+            height: 160px;
+            margin-top: 10px;
+        }
+        .right-area h2 {
+            font-size: 32px;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .logo-area img {
+            width: 135px;
+            margin-top: 17px;
+        }
+        .left-area {
+            width: 100%;
+            float: none;
+        }
+        .left-area h3 {
+            width: 100%;
+        }
+        .right-area {
+            width: 100%;
+            float: none;
+        }
+    }
+    
+    @media screen and (min-width:425px) and (max-width:767px) {
+        .header {
+            padding-bottom: 10px;
+        }
+        .logo-area {
+            width: 100%;
+            float: none;
+            text-align: center;
+        }
+        .login-area {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .login-area form {
+            float: none;
+        }
+        .login-area .email,
+        .login-area .pass,
+        .login-area .login {
+            float: none;
+            margin-right: 0;
+        }
+        .login-area input[type="text"],
+        .login-area input[type="password"] {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .login-area input[type="submit"] {
+            margin-top: 10px;
+        }
+        .left-area {
+            width: 100%;
+            float: none;
+        }
+        .left-area h3 {
+            width: 100%;
+            font-size: 20px;
+        }
+        .left-area img {
+            width: 337px;
+            height: 160px;
+            margin-top: 10px;
+        }
+        .right-area {
+            width: 100%;
+            float: none;
+        }
+        .right-area h2 {
+            font-size: 32px;
+        }
+    }
+    
+    @media screen and (min-width:320px) and (max-width:424px) {
+        .header {
+            padding-bottom: 10px;
+        }
+        .logo-area {
+            width: 100%;
+            float: none;
+            text-align: center;
+        }
+        .login-area {
+            width: 100%;
+            margin-top: 5px;
+        }
+        .login-area form {
+            float: none;
+        }
+        .login-area .email,
+        .login-area .pass,
+        .login-area .login {
+            float: none;
+            margin-right: 0;
+        }
+        .login-area input[type="text"],
+        .login-area input[type="password"] {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .login-area .login {
+            margin-top: 10px;
+        }
+        .left-area {
+            width: 100%;
+            float: none;
+        }
+        .left-area h3 {
+            width: 100%;
+            font-size: 14px;
+        }
+        .left-area img {
+            width: 275px;
+            height: 160px;
+            margin-top: 10px;
+        }
+        .right-area {
+            width: 100%;
+            float: none;
+        }
+        .right-area h2 {
+            font-size: 25px;
+        }
+        .right-area input[type="text"],
+        .right-area input[type="password"] {
+            font-size: 14px;
+        }
+        .gender label {
+            font-size: 10px;
+        }
+        .text-box {
+            float: left;
+        }
+        .text-box p {
+            width: 275px;
+        }
+        .page {
+            font-size: 10px;
+        }
+    }
